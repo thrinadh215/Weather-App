@@ -1,0 +1,29 @@
+.desc{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.temp{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+.temp p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.sunny{
+    animation: rotateSun 6s linear infinite;
+    width: 100px;
+    height: 100px;
+}
+@keyframes rotateSun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

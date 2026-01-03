@@ -5,3 +5,15 @@
   text-align: center;
 }
 
+
+h1{
+  color: rgb(82, 90, 188);
+  font-size: 50px;
+}
+/* Sun icon styling */
+#sun {
+  font-size: 4.2rem;
+}
+
+/* Smooth rotation animation */
+
